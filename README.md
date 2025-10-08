@@ -40,3 +40,5 @@ Used for GLM fitting (fitglm), canonical correlation analysis (canoncorr), and c
 MaxEnt Toolbox
 Required for estimating pairwise maximum entropy (Ising) models of network co-activation states.
 → Available at: https://orimaoz.github.io/maxent_toolbox/
+
+Data used in this paper cannot be shared publicly.

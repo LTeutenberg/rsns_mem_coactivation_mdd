@@ -25,7 +25,7 @@ Synthetic validation of the maximum entropy model and canonical correlation anal
 
 Reproducibility
 
-All analyses are implemented in MATLAB and are deterministic given the provided random seed. Data-dependent components (paths, column indices) can be modified in config.m, ensuring transparency and adaptability to other datasets.
+All analyses are implemented in MATLAB. Data-dependent components (paths, column indices) can be modified in config.m, ensuring transparency and adaptability to other datasets. Data used in the original paper cannot be shared publicly.
 
 🧩 Requirements
 
@@ -40,5 +40,3 @@ Used for GLM fitting (fitglm), canonical correlation analysis (canoncorr), and c
 MaxEnt Toolbox
 Required for estimating pairwise maximum entropy (Ising) models of network co-activation states.
 → Available at: https://orimaoz.github.io/maxent_toolbox/
-
-Data used in this paper cannot be shared publicly.

@@ -13,13 +13,15 @@ Maximum entropy modeling of RSN co-activation states (128 binary patterns).
 
 General linear models (GLMs) testing group and remission effects (HC vs. MDD).
 
-Canonical correlation analysis (CCA) linking brain-state probabilities to HAMD-17 symptom items.
+Canonical correlation analysis (CCA) linking brain-state probabilities to depression severity.
 
-Stability and generalizability analyses using repeated cross-validation and subgroup matching.
+Stability and generalizability analyses for CCA using repeated cross-validation and subgroup matching.
 
 Predictive evaluation of canonical variates in held-out data.
 
 Fully configurable through a single configuration file (config.m).
+
+Synthetic validation of the maximum entropy model and canonical correlation analysis.
 
 Reproducibility
 

@@ -1,0 +1,22 @@
+# Ignore results and large intermediate files
+results/
+*.log
+
+# MATLAB autosave and backup files
+*.asv
+*.fig
+*.m~
+*.mex*
+
+# Data (keep only readme)
+data/*.mat
+!data/README.md
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup and temp files
+*~

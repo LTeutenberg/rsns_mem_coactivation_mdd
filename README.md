@@ -7,7 +7,7 @@ The code implements a pairwise maximum entropy model (MaxEnt) to estimate co-act
 
 The workflow is modular and organized into eight parts, ranging from probability estimation to predictive validation. Each part can be run independently or executed as a complete pipeline via main.m.
 
-Key features
+🧩Key features
 
 Maximum entropy modeling of RSN co-activation states (128 binary patterns).
 
@@ -24,3 +24,17 @@ Fully configurable through a single configuration file (config.m).
 Reproducibility
 
 All analyses are implemented in MATLAB and are deterministic given the provided random seed. Data-dependent components (paths, column indices) can be modified in config.m, ensuring transparency and adaptability to other datasets.
+
+🧩 Requirements
+
+To run the analyses, the following software and dependencies are required:
+
+MATLAB (R2021b or later)
+Required for all analyses and scripts. The code has been tested with MATLAB versions R2021b–R2024a.
+
+Statistics and Machine Learning Toolbox
+Used for GLM fitting (fitglm), canonical correlation analysis (canoncorr), and cross-validation (cvpartition).
+
+MaxEnt Toolbox
+Required for estimating pairwise maximum entropy (Ising) models of network co-activation states.
+→ Available at: https://orimaoz.github.io/maxent_toolbox/
